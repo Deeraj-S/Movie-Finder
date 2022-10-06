@@ -107,6 +107,7 @@ body{
 }
 
 .footer{
+    width: 100%;
     background-color: blue;
     padding: 30px;
     text-align: center;
