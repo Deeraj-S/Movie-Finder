@@ -8,6 +8,7 @@ body{
     overflow-x: hidden;
 
 
+
 }
 
 .title{
@@ -104,9 +105,10 @@ body{
     background-color: rgb(34,56,78);
 }
 
-@media(max-width: 700px){
+@media(max-width: 600px){
     .cards{
-        width: 380px;
+        width: 300px;
+        margin: 3px;
     }
     
     .form-input{
