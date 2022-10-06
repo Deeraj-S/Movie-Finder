@@ -33,8 +33,7 @@ function showMovies(movies){
 function movie_display(imovie){
     const movieElm = document.createElement("div");
     movieElm.classList.add("movie-cards");
-    movieElm.innerHTML = `
-       <div class="cards">
+    movieElm.innerHTML = `<div class="cards">
            <img src = "${imovie.Poster}" alt = "Poster" width = "300px" height = "300px"/>
            <br>
            <div class="movie-description">
@@ -44,8 +43,7 @@ function movie_display(imovie){
             <span class="movie-title><b>Released</b><span class="value>${imovie.Released}</span></span>
             <span class="movie-title><b>Genre</b><span class="value>${imovie.Genre}</span></span>
             </div>
-        </div>
-    `;
+        </div>`
     card.appendChild(movieElm);
 
 }
