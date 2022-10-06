@@ -10,6 +10,8 @@ document.getElementsByClassName("search")[0].addEventListener("click", function(
     if(query){
         getMovies(API_URL+query);
     }
+    document.getElementsByClassName("footer")[0].style.display = "flex";
+    
 });
 
 async function getMovies(url){

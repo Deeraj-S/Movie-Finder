@@ -26,6 +26,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 
 .form-input{
@@ -103,6 +104,18 @@ body{
     border: 1px solid grey;
     border-radius: 5px;
     background-color: rgb(34,56,78);
+}
+
+.footer{
+    background-color: blue;
+    padding: 30px;
+    text-align: center;
+    display: none;
+    color: white;
+    background-color: rgb(19,19,56);
+}
+.foots{
+    text-align: center;
 }
 
 @media(max-width: 600px){
